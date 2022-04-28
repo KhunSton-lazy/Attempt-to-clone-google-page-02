@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { Parallax, useParallax } from 'react-scroll-parallax';
 
 function App() {
+  
+  const { ref } = useParallax({ 
+   
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Parallax>
+      <div ref={ref} className="parallax bg-fixed">
+        <h1 class="text-9xl text-white grid place-items-center pt-[25%]">Google</h1>
+        </div>
+      </Parallax>
+      
+    <Parallax>
+    <div ref={ref} className="parallax01">
+          <h1>Hello world lorem</h1>
+      </div>
+    </Parallax>
+
+    <Parallax>
+      <div ref={ref} className="parallax" >
+        <h1>lorem</h1>
+        </div>
+      </Parallax>
+     
+
+      
+
+    </>
+      
+       
+     
+      
   );
 }
 
