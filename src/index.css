@@ -2,22 +2,19 @@ body, html {
   height: 100%;
 }
 
-.parallax { 
+.google { 
   /* The image used */
-  background-image: url("HeroImage.jpg");
-
-  /* Full height */
-  height: 100vh; 
-
+  background-image: url("./Photo/hero-image-01.jpg");
 }
 
-.parallax01 { 
+.antinomy { 
   /* The image used */
-  background-image: url("HeroImage-02.jpg");
+  background-image: url("./Photo//hero-image-02.jpg");
+}
 
-  /* Full height */
-  height: 100vh; 
-
+.daysOfType {
+  /* The image used */
+  background-image: url("./Photo//hero-image-03.jpg");
 }
 
 @tailwind base;

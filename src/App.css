@@ -3,13 +3,3 @@
     padding: 0;
     margin: 0;
 }
-
-.parallax {
-    background-image: url("./HeroImage.jpg");
-    background-position: center;
-}
-
-.parallax01 {
-    background-image: url("./HeroImage-02.jpg");
-    background-position: center;
-}
