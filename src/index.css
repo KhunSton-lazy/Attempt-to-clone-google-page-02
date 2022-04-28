@@ -17,6 +17,52 @@ body, html {
   background-image: url("./Photo//hero-image-03.jpg");
 }
 
+.Ayco {
+  /* The image used */
+  background-image: url("./Photo//hero-image-04.jpg");
+}
+
+.LEchonova {
+  background-image: url("./Photo/hero-image-05.jpg")
+}
+
+.Lvmh {
+  background-image: url("./Photo//hero-image-06.jpg")
+}
+
+.Hublot {
+  background-image: url("./Photo/hero-image-07.jpg")
+}
+
+.ByuTv {
+  background-image: url("./Photo//hero-image-08.jpg")
+}
+
+.ScaleAi {
+  background-image: url("./Photo//hero-image-09.jpg")
+}
+
+.NuageSurMer {
+  background-image: url("./Photo//hero-image-10.jpg")
+}
+
+.DaysOfType02 {
+  background-image: url("./Photo//hero-image-11.jpg")
+}
+
+.FastCompanyMagazine {
+  background-image: url("./Photo//hero-image-12.jpg")
+}
+
+.TousATable {
+  background-image: url("./Photo//hero-image-13.jpg")
+}
+
+.Bic {
+  background-image: url("./Photo//hero-image-14.jpg")
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
