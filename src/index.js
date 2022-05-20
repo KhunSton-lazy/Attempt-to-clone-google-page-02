@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { BrowserRouter } from "react-router-dom"
+import './index.css';
+import { App } from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <ParallaxProvider>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </ParallaxProvider>
 );
+
 

@@ -1,5 +1,50 @@
 body, html {
   height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* animated underline text while hover */
+.hover-underline-animation {
+  display: grid;
+  place-items: center;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  display: grid;
+  place-items: center;
+  width: 40%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media only screen and (min-width: 640px) {
+  .hover-underline-animation:after {
+    width: 28%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hover-underline-animation:after {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hover-underline-animation:after {
+    width: 35%;
+    height: 7px;
+  }
 }
 
 .google { 
